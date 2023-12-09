@@ -60,7 +60,8 @@ Here rraj is the rare vocabulary token and person is the class prior for the sub
  
 It turns out that LoRA + Dreambooth with 1000 steps works decently well on human faces as well. Prior-Preservation definitely improves the model (as seen from images below). For me, the PNDM Scheduler works well with just 50 timesteps and DDIM with 80 timesteps. 
 
-```prompt = "a painting of rraj person at Oktoberfest"
+```
+prompt = "a painting of rraj person at Oktoberfest"
 ```
 ## Without Prior Preservation
 ![image](https://github.com/rajlm10/dreambooth_lora_merging/assets/57042606/46d9adb9-7142-47f9-886f-5ab2f2db5cf7)
@@ -70,22 +71,26 @@ It turns out that LoRA + Dreambooth with 1000 steps works decently well on human
 ![image](https://github.com/rajlm10/dreambooth_lora_merging/assets/57042606/1f45d784-4f9c-45ad-b5f1-d0c2dc8942a0)
 
 ## Art Renditions
-```prompt = "a painting of rraj person in the style of Van Gogh"
+```
+prompt = "a painting of rraj person in the style of Van Gogh"
 ```
 ![image](https://github.com/rajlm10/dreambooth_lora_merging/assets/57042606/9ac1efc8-0a80-4d20-ad46-a3e40cc48bec)
 
 ## Property Modification
-```prompt = "a painting of rraj person with blonde hair"
+```
+prompt = "a painting of rraj person with blonde hair"
 ```
 ![image](https://github.com/rajlm10/dreambooth_lora_merging/assets/57042606/90ce1e46-c89c-40fd-81d5-dbe886264c23)
 
 ## Novel-View Synthesis
-```prompt = "a side view photo of rraj person"
+```
+prompt = "a side view photo of rraj person"
 ```
 ![image](https://github.com/rajlm10/dreambooth_lora_merging/assets/57042606/9d077d23-1800-42fb-a2ea-edf0c4fa8d6c)
 
 ## Acccesorization
-```prompt = "a of rraj person with sunglasses"
+```
+prompt = "a of rraj person with sunglasses"
 ```
 
 ![image](https://github.com/rajlm10/dreambooth_lora_merging/assets/57042606/d56dd447-902a-44a1-99c6-3ef7d3f4e720)
